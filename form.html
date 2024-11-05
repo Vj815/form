@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .form-container { width: 300px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+        input { width: 100%; padding: 10px; margin: 5px 0; }
+        select { width: 100%; padding: 10px; margin: 5px 0; }
+        .error { color: red; font-size: 12px; }
+    </style>
+</head>
+<body>
+<!-- <div class="form-container">
+    <h2>Student Information Form</h2>
+    <form id="studentForm">
+        Name: <input type="text" id="name"><span class="error" id="nameError"></span><br>
+        Address: <input type="text" id="address"><span class="error" id="addressError"></span><br>
+        City: <input type="text" id="city"><span class="error" id="cityError"></span><br>
+        State: <input type="text" id="state"><span class="error" id="stateError"></span><br>
+        Gender: 
+        <select id="gender">
+            <option value="">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><span class="error" id="genderError"></span><br>
+        Mobile: <input type="number" id="mobile"><span class="error" id="mobileError"></span><br>
+        Email: <input type="text" id="email"><span class="error" id="emailError"></span><br>
+        <button type="submit">Submit</button>
+    </form>
+</div> -->
+<div class="form-container">
+    <h2> Student infromation Form</h2>
+    <form id="studentForm">
+        Name:<input type="text" id="name"><span class="error" id="nameError"></span>
+        Address:<input type="text" id="address">
+        State:<input type="text" id="state">
+        Gender:
+        <select>
+            <option value="">select</option>
+                <option value="Male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        Mobile:<input type="text" id="mobile"><span value="errer" id="mobileError"></span>
+        Email: <input type="text" id="email"><span class="error" id="emailError"></span><br>
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+<script src="infoform.js"></script> <!-- Connecting JS file -->
+</body>
+</html>
