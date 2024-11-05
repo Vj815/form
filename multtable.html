@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="MultiTable.js" defer></script> -->
+    <title>Multiplication Table</title>
+</head>
+<body>
+    <h1>Multiplication Table</h1>
+   
+    <label for="number">Enter the number</label>
+    <input type="number" id="number" name="number">
+
+    <button onclick="Multitable()">Calculate</button>
+    <p id="result"></p>
+    <script>
+        
+function Multitable()
+{
+    let number=document.getElementById("number").value;
+//const number = 5;
+// Use a for loop to iterate from 1 to 10
+for (let i = 1; i <= 10; i++) {
+    // Calculate the result of the current number times i
+     let cal = number * i;
+    // Display the multiplication table in the console
+    document.getElementById('result').innerHTML +=cal +"<br>" ;
+    // document.writeln(cal);
+}
+}
+    </script>
+</body>
+</html>
