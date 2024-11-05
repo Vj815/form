@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="practicla.js"></script>
+    
+</head>
+
+<body>
+    <h2>Rectangle</h2>
+    <label for="length">Enter the length</label>
+    <input type="number" id="length" vlaue="length">
+
+    <label for="breath">Enter the breath</label>
+    <input type="number" id="breath" value="breath">
+    <br>
+    
+    <button onclick="area()"> calculate area</button>
+    <p id="result"></p>
+
+<h2>Circle</h2>
+    <label for="radius">Enter the radius</label>
+    <input type="number" id="radius" vlaue="radius">
+    <button onclick="rect()"> calculate area</button>
+    <p id="result1"></p>
+
+    <h2>Triangle</h2>
+    <label for="height">Enter height:</label>
+    <input type="number" id="height" name="height">
+    <label for="base">Enter base:</label>
+    <input type="number" id="base" name="base">
+    <button onclick="calculateAreaT()">Calculate</button>
+    <p id="result2"></p>
+
+
+
+    <!-- <script>
+        function area()
+        {
+            const len=document.getElementById('length').value;
+            const bre=document.getElementById('breath').value;
+            const rect=len*bre;
+            document.getElementById('result').innerText= `The area of the circle is: ${rect}`;
+
+            
+        }
+
+    </script>
+
+    <script>
+        function rect() 
+{
+    const r = document.getElementById('radius').value;
+    const area=Math.PI*r*r;
+    document.getElementById('result1').innerText = `The area of the circle is: ${area}`;
+
+}
+
+    </script>
+
+    <script>
+        function calculateAreaT() 
+{
+    const b = document.getElementById('base').value;
+    const h = document.getElementById('height').value;
+    const area=(b*h)/2;
+    document.getElementById('result2').innerText = `The area of the circle is: ${area}`;
+
+}
+    </script> -->
+</body>
+</html>
